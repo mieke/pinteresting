@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.2'
+ruby '2.1.4'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -33,10 +33,10 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-group :production do
-  gem 'pg'
-  gem 'rails_12factor'
-end
+#group :production do
+  #gem 'pg'
+  #gem 'rails_12factor'
+#end
 
 
 # Use ActiveModel has_secure_password
